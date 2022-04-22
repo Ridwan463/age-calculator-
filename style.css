@@ -1,0 +1,119 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: var(--c4);
+}
+
+body{
+  background: var(--c1);
+}
+
+:root {
+  --c1: #ecf0f3;
+  --c2: rgba(0,0,0,0.16);
+  --c3: #fff;
+  --c4: black;
+}
+
+.container{
+  width: 40%;
+  min-width: 320px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.container *{
+  border: none;
+  outline: none;
+  font-family: "Poppins", sans-serif;
+}
+
+.inputs-wraper{
+  background: var(--c1);
+  padding: 30px 25px;
+  border-radius: 8px;
+  margin-bottom: 40px;
+  box-shadow: 5px 5px 12px var(--c2),-5px -5px 12px var(--c3),inset 5px 5px 12px var(--c3);
+}
+
+input,
+button{
+  height: 50px;
+  background: transparent;
+  font-weight: 500;
+  border-radius: 5px;
+}
+
+input{
+  width: 100%;
+  padding: 0 20px;
+  font-size: 14px;
+  margin: 20px 0;
+}
+
+button{
+  width: 100%;
+}
+
+.outputs-wraper{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.outputs-wraper div{
+  background: var(--c1);
+  color: black;
+  text-align: center;
+  height: 85px;
+  width: 85px;
+  border-radius: 5px;
+  box-shadow: 5px 5px 12px var(--c2),-5px -5px 12px var(--c3),inset 5px 5px 12px var(--c3);
+  display: grid;
+  place-items: center;
+  padding: 10px 0;
+}
+
+span{
+  font-size: 25px;
+  font-weight:500;
+}
+
+p{
+  font-size: 12px;
+  font-weight: 400;
+  color: #707070
+}
+
+.creator-name, .app-fun{
+  background: var(--c1);
+  margin: 40px 0;
+  color: black;
+  text-align: center;
+  padding: 15px;
+  border-radius: 5px;
+  box-shadow: 5px 5px 12px var(--c2),-5px -5px 12px var(--c3),inset 5px 5px 12px var(--c3);
+}
+
+.creator-name h1{
+  font-size: 25px;
+  font-weight: 400;
+}
+
+.app-fun h1{
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.date-input {
+  text-shadow: 5px 5px 12px var(--c3);
+  background: var(--c1);
+  box-shadow: -5px -5px 12px var(--c3),inset -5px -5px 12px var(--c3),inset 5px 5px 12px var(--c2);
+}
+
+.calculateBtn {
+  box-shadow: 5px 5px 12px var(--c2),-5px -5px 12px var(--c3),inset 5px 5px 12px var(--c3);
+}
